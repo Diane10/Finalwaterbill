@@ -11,7 +11,7 @@ const fetchBills = async()=>{
     const token = localStorage.getItem('token')
     // $('#ftco-loader'
     document.getElementById('ftco-loader').classList.add('show')
-    const response = await fetch('https://water-billing2020.herokuapp.com/dashboard/'+token,{
+    const response = await fetch('https://waternadia1010.herokuapp.com/dashboard/'+token,{
         method:"GET",
         headers:{
             "Content-Type": "application/json"
